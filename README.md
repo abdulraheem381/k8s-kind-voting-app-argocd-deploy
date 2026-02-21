@@ -16,12 +16,13 @@ This guide covers the steps to:
 
 ## Architecture
 
-![Architecture diagram](k8s-kind-voting-app.png)
+![Architecture diagram](Images/k8s-kind-voting-app.png)
+![Architecture Excalidraw](Images/architecture.excalidraw.png)
 
 ## Observability
 
-![Grafana diagram](grafana.png)
-![Prometheus diagram](prometheus.png)
+![Grafana diagram](Images/grafana.png)
+![Prometheus diagram](Images/prometheus.png)
 
 * A front-end web app in [Python](/vote) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) which collects new votes
@@ -30,6 +31,21 @@ This guide covers the steps to:
 * A [Node.js](/result) web app which shows the results of the voting in real time
 
 
+
+## Screenshots
+
+### Cluster Created
+![Cluster Created](Images/Cluster-created.png)
+
+### Pods Running
+![Pods Running](Images/pods-running.png)
+
+### ArgoCD Overview
+![ArgoCD Overview](Images/ArgoCD-overview.png)
+
+### Application Pages
+![Vote Page](Images/vote-page.png)
+![Result Page](Images/result-page.png)
 
 ## Resume Description
 
